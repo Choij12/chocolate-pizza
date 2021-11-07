@@ -1,0 +1,157 @@
+.page-header{
+    display:flex;
+    flex-direction:row;
+    border-bottom: 1px dotted black;   
+    align-items: center;
+    width:100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right:25%;
+}
+
+.underline {
+    width: 901px;
+    border-bottom: 1px dotted black;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 50%;
+}
+.border{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.delicious{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.3rem;
+    height:60px;
+    margin:0%;
+    padding: 0%;
+}
+.text-div{
+    display: flex;
+    flex-direction: column;
+    height:100px;
+}
+.best-blog{
+    margin: 0%;
+    padding: 0%;
+    font-size: 1rem;
+}
+.logo-left{
+    margin-top: 5%;
+}
+.row-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#title{
+    font-size: 2.5rem;
+}
+#date{
+    font-size: .8rem;
+    opacity: 50%;
+}
+#print{
+    opacity: 50%;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: row;
+}
+
+#ingredient-row {
+    background-image: url("../assets/list-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left {
+    justify-content: left;
+    margin-left: 40px;
+}
+
+.right {
+    justify-content: right;
+    margin-left: 65px;
+}
+
+.left, .right {
+    font-size: 1.8rem;
+}
+
+p {
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 1.3rem;
+}
+
+ul {
+    font-family: cursive;
+    list-style-type: square;
+}
+
+#author {
+    margin-top: 50px;
+    border-top: 1px dotted black;
+    padding: 10px;
+    width: 901px;
+}
+
+.author-notes {
+    display: flex;
+    flex-direction: row;
+}
+
+#headshot {
+    height: 50px;
+    width: 50px;
+}
+
+#pizza-div {
+    width: 901px;
+}
+.choco-pizza {
+    width: 901px;
+}
+
+.rights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    opacity: 50%;
+}
+#share{
+    display: flex;
+    margin-left: 20%;
+    border:1px solid rgba(180, 103, 58, 0.822);
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 70px;
+    background-color: rgba(180, 103, 58, 0.822);
+    color: white;
+}
+#bio{
+    margin-right: 20%;
+}
