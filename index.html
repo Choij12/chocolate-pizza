@@ -1,115 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>chocolate-pizza</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <header class="page-header">
-        <div class="row-box">
-            <div class="logo">
-                <div class="logo-left">
-                    <img class="logo-img" src="" alt="logo">
-                </div>
-                <div class="text-div">
-                    <h1 class="delicious">Delicious</h1>
-                <h2 class="best-blog">The best food blog on the web</h2>
-               </div>
-            </div>
-            <div class="border">
-                <nav class="socials">
-                    <img src="" alt="facebook">
-                    <img src="" alt="twitter">
-                    <img src="" alt="google+">
-                    <img src="" alt="instagram">
-                    <img src="" alt="flickr">
-                    <img src="" alt="pintrest">
-                    <img src="" alt="blogger">
-                    <img src="" alt="email">
-                </nav>
-            </div>
+    <header>
+        <div id="logoleft" class="sameline">
+            <img src="img/logo.png" alt="logo" id="logo" >
+            <h3>Delicious</h3>
+            <p id='pHeader'>THE BEST FOOD BLOG ON THE WEB</p>
+            
         </div>
+        <div id="logoright" class="sameline imghead">
+            <img src="img/rss-icon.png" >
+            <img src="img/mail-icon.png" >
+        </div>
+        <div id="logomiddle" class="sameline imghead">
+            <img src="img/fb-icon.png" >
+            <img src="img/twit-icon.png" >
+            <img src="img/gp-icon.png" >
+            <img src="img/insta-icon.png" >
+            <img src="img/flic-icon.png" >
+            <img src="img/pint-icon.png" >
+        </div>
+        <div id="borderheader"></div>
     </header>
-    <main class="main">
-        <article class="main-article">
-            <div class="row">
-                <div class="title">
-                    <h1 id="title">Chocolate Pizza</h1>
-                    <h2 id="date">Posted on 15 December 2013/desserts</h2>
-                </div>
-            </div>
-            <div class="print-link">
-                <p id="print">
-                    <img src="" alt="Print">
-                    Print
-                </p>
-            </div>
-            <div class="row" id="pizza-div">
-                <div class="choco-pizza">
-                    <img src="" alt="Chocolate Pizza" class="pizza-img">
-                </div>
-            </div>
-            <div class="row">
-                <div class="recipe">
-                    <p>For the fig swirl: melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all the figs and toss into the saucepan with water and lemon juice.Cook over meadium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
-                    <p>Ice cream: In a small pot over meadium heat, combine milk and granulated sugar until sugar is completely dissolved, and the milk is barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
-                    <p>Using an ice cream maching, pour liquids into the frozen basin and process according to the manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding marscapone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least 2 hours before serving.</p>
-                </div>
-            </div>
-            <div class="row" id="ingredient-row">
-                <div class="ingredients">
-                    <div class="left">
-                        <ul>
-                            <li>1 1/2 cups milk</li>
-                            <li>1/2 cup mascarpone</li>
-                            <li>1/2 tsp pink salt</li>
-                            <li>1 pound black mission figs</li>
-                            <li>1/2 cup brown sugar</li>
-                            <li>2-4 tbsp water</li>
-                        </ul>
-                    </div>
-                    <div class="right">
-                        <ul>
-                            <li>1 1/2 cups heavy cream</li>
-                            <li>1/3 cups granulated sugar</li>
-                            <li>2 egg yolks</li>
-                            <li>1 lemon (juiced)</li>
-                            <li>2 tbsp butter</li>
-                            <li>1 cup honey roasted pecans</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row" id="author">
-                <div class="author-notes">
-                    <img id="headshot" src="./assets/van-pic.png" alt="headshot">
-                    <div id="author-info">
-                        <h3>Vanessa Stevenson</h3>
-                        <p id="bio">Food enthusiest, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-                    </div>
-                    <p id="share">Share Recipe</p>
-                </div>
-            </div>
-        </article>
-        <div class="underline"> </div>
-    </main>
-    <footer>
-        <div class="row">
-            <div class="rights">
-                <p id="top">Delicious ©️ 2013 · All Rights Reserved.</p>
-                <p id="bottom">Proudly published with Ghost.</p>
-            </div>
+    <main>
+        <div id="article">
+            <h1>Chocolate Pizza</h1>
+            <h2>POSTED ON DEC 2013/DESSERTS</h2>
+            <h2 id="rightimg">PRINT</h2>
+            <img id='printPic' src="img/print-icon.png" alt="print">
+            <img id='mainPic' src="img/choco-pizza.png" alt="main img">
+    <pre>
+        Chocolate pizza is a type of pizza prepared using chocolate as a primary ingredient.[1] Various styles and preparation
+    techniques exist.Chocolate pizza may be prepared as a dessert dish, as a savory dish, and as chocolate molded in the 
+    form of a pizza [further explanation needed].Some companies specialize in chocolatepizzas.   
+    
+    
+    
+        Preheat oven to 450°F. Line large baking sheet with parchment.Roll out dough on lightly floured surface to 11-inch
+    round.Transfer dough to prepared sheet.Make indentations all over dough with fingertips. Brush melted butter over.
+    Bake until pale golden, about 20 minutes.Smooth chocolate-hazelnut spread over hot crust.
+    
+    
+        Sprinkle chopped bittersweet chocolate and white chocolate over.Bake until chocolate begins to melt,about 2 minutes.
+    Sprinkle chopped hazelnuts over, cut into wedges, and
+    serve.
+    </pre>
         </div>
-    </footer>
-</body>
+    
+        <div id="list">
+    
+        </div>
+    
+        <div id="vanessa">
+            <img src="" alt="">
+            <pre></pre>
+        </div>
+    
+        <form id="back">
+          <fieldset>
+            <div >
+                <div class="first sameline" >
+                    <p> 
+                        <input type="checkbox" id="a">
+                        <label for="a">11/2 cups milk</label>
+                    </p>
+                    <p> 
+                        <input type="checkbox" id="b">
+                        <label for="b">1/2 cup</label>
+                    </p>
+                        <p>
+                        <input type="checkbox" id="c">
+                        <label for="c">1/2 tsp pink salt</label> 
+                    </p>
+                    <p> 
+                        <input type="checkbox" id="d">
+                        <label for="d">1 lb Black Mission Figs</label>
+                    </p>
+                    <p> 
+                        <input type="checkbox" id="e">
+                        <label for="e">1/2cup brown</label>
+                    </p> 
+                    <p>
+                        <input type="checkbox" id="f">
+                        <label for="f">2-4 fbsp water</label>
+                    </p>
+            </div>
+    
+            <div class="secound sameline">
+                    <p>  
+                        <input type="checkbox" id="j">
+                        <label for="g">11/2 cups heavy cream</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="h">
+                        <label for="h">1/3 granulated suger</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="i">
+                        <label for="i">1 lemon,juiced</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="j">
+                        <label for="j">2 tbsp </label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="k">
+                        <label for="k">2 eggs yolks</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="l">  
+                        <label for="l">1 cup honey rasted</label>
+                    </p>
+           </div>
+             </div>
+         
+          </fieldset>      
+        </form>
+        <div id="borderheader"></div>
 
+        <div class="vanessa">
+            <img src="img/van-pic.png" alt="vanessa" class="vanPic">
+            <h4 class="vanName">Vanessa Stevenson</h4>
+            <p class="ppp">Food enthusiast,photography fan. Add a pinch of raw foodism and that's pretty much who I am.
+            </p>
+            <button class="button">SHARE RECIPE</button>
+        </div>
+        </main>
+    
+        <footer id="footer">
+            <hr class="hr">
+            <img src="img/small-logo.png" alt="logo" class="footerImg line" srcset="">
+            <hr class="hr">
+            <p class="footerParagraph">Delicious &copy; 2013 - All Rights Reseved.<br />Proudly published with Ghost.</p>
+    
+        </footer>
+</body>
 </html>
